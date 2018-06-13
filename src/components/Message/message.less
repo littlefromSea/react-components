@@ -1,0 +1,43 @@
+.rc-message{
+  position: fixed;
+  left:50%;
+  top:-60px;
+  width:60%;
+  height:30px;
+  padding:6px 8px;
+  transform: translate(-50%);
+  border-radius:4px;
+  text-align: center;
+  color:#8391a5;
+  line-height: 30px;
+  box-shadow:0 2px 4px rgba(0,0,0,.12),0 0 6px rgba(0,0,0,.04);
+  transition:.4s all ease;
+  background:#fff;
+  span.rc-icon{
+    position:absolute;
+    left:-2px;
+    top:0;
+    width:40px;
+    height:100%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 4px 0 0 4px;
+    &-error{
+      background:rgb(255, 0, 0);
+    }
+    &-success{
+      background:#42d885;
+    }
+    &-primary{
+      background: #73ccff;
+    }
+    &-warning{
+      background:#f9c855;
+    }
+  }
+  &-top{
+    top:10px;
+  }
+}
+
