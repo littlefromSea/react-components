@@ -1,7 +1,7 @@
 import React,{Component} from 'react';
 import Collapse from '../../components/Collapse';
 import './collapse.less';
-class collapse extends Component{
+class COM_Collapse extends Component{
   render(){
     const activeName = "0";
     return(
@@ -24,4 +24,4 @@ class collapse extends Component{
 }
 
 
-export default collapse;
+export default COM_Collapse;

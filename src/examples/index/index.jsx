@@ -18,6 +18,7 @@ class Index extends Component{
         <div><NavLink to="/icon">Icon字体</NavLink></div>
         <div><NavLink to="/message">message</NavLink></div>
         <div><NavLink to="/input">input输入</NavLink></div>
+        <div><NavLink to="/switch">switch</NavLink></div>
       </div>
     );
   }

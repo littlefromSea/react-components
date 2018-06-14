@@ -1,7 +1,7 @@
 import React,{Component} from 'react';
 import Input from '../../components/Input';
 
-class input extends Component{
+class COM_Input extends Component{
   getValue(e){
     console.log(e.target.value);
   }
@@ -33,4 +33,4 @@ class input extends Component{
   }
 }
 
-export default input;
+export default COM_Input;

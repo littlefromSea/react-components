@@ -5,7 +5,7 @@ import iconJson from './iconJson.json';
 import Message from '../../components/Message';
 import './icon.less';
 
-class icon extends Component{
+class COM_Icon extends Component{
   copyIconName(iconName){
       let clipboard = new Clipboard('.rc-icon-iconFont');
       clipboard.on('success', () => {
@@ -45,4 +45,4 @@ class icon extends Component{
   }
 }
 
-export default icon;
+export default COM_Icon;

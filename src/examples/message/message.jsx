@@ -2,7 +2,8 @@ import React, { Component } from 'react';
 import Message from '../../components/Message';
 import Button from '../../components/Button';
 import './message.less';
-class message extends Component{
+
+class COM_Message extends Component{
   constructor(props){
     super(props);
     this.state = ({
@@ -45,4 +46,4 @@ class message extends Component{
   }
 }
 
-export default message;
+export default COM_Message;

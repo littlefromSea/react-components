@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 //button 组件 
 import Button from '../../components/Button';
 import './button.less';
-class button extends Component{
+class COM_Button extends Component{
   render(){
     return(
       <div className="rc-button">
@@ -26,4 +26,4 @@ class button extends Component{
   }
 }
 
-export default button;
+export default COM_Button;
