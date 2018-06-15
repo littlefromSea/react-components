@@ -1,7 +1,8 @@
 {
-  "name": "my-react-app",
-  "version": "0.1.0",
-  "private": true,
+  "name": "rc-react",
+  "version": "0.1.1",
+  "private": false,
+  "main": "./src/components",
   "dependencies": {
     "autoprefixer": "7.1.6",
     "babel-core": "6.26.0",
@@ -55,6 +56,7 @@
     "clipboard": "^2.0.1",
     "less": "^3.0.4",
     "less-loader": "^4.1.0",
+    "rc-react": "^0.1.0",
     "react-router": "^4.2.0",
     "react-router-dom": "^4.2.2"
   },
@@ -99,5 +101,6 @@
   },
   "eslintConfig": {
     "extends": "react-app"
-  }
+  },
+  "author": "patric"
 }

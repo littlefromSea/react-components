@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 //button 组件 
-import Button from '../../components/Button';
+import {Button} from '../../components';
 import './button.less';
 class COM_Button extends Component{
   render(){
