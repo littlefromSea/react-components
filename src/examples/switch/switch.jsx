@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import {Switch} from '../../components';
+import Switch from '../../components/Switch';
 
 class COM_Switch extends Component{
   constructor(props){
