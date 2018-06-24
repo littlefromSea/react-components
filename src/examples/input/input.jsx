@@ -1,5 +1,5 @@
 import React,{Component} from 'react';
-import Input from '../../components/Input';
+import Input from 'rc-react';//'../../components/Input';
 
 class COM_Input extends Component{
   getValue(e){

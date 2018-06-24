@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
-import Message from '../../components/Message';
-import Button from '../../components/Button';
+import {Message} from 'rc-react';//'../../components/Message';
+import {Button} from 'rc-react';//'../../components/Button';
 import './message.less';
 
 class COM_Message extends Component{

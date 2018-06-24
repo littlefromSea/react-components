@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import Clipboard from 'clipboard';
-import Icon from '../../components/Icon';
+import {Icon} from 'rc-react';//'../../components/Icon';
 import iconJson from './iconJson.json';
 import Message from '../../components/Message';
 import './icon.less';

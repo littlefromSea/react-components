@@ -1,5 +1,5 @@
 import React,{Component} from 'react';
-import Collapse from '../../components/Collapse';
+import {Collapse} from 'rc-react';//'../../components/Collapse';
 import './collapse.less';
 class COM_Collapse extends Component{
   render(){
