@@ -57,9 +57,8 @@
   },
   "scripts": {
     "start": "node scripts/start.js",
-    "build": "node scripts/build.js",
-    "test": "node scripts/test.js --env=jsdom",
-    "transpile": "babel src/components/index.js --out-dir lib"
+    "build": "node scripts/build.js", 
+    "test": "node scripts/test.js --env=jsdom"
   },
   "devDependencies": {
     "babel-cli": "^6.26.0",
