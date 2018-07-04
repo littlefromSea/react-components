@@ -26,4 +26,4 @@ class COM_Button extends Component{
   }
 }
 
-export default COM_Button;
+export default COM_Button; 

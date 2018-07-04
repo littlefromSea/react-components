@@ -5,6 +5,7 @@ class COM_Input extends Component{
   getValue(e){
     console.log(e.target.value);
   }
+  
   render(){
     return(
       <div style={{padding:"6px"}}>
