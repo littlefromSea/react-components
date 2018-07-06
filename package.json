@@ -57,8 +57,10 @@
   },
   "scripts": {
     "start": "node scripts/start.js",
-    "build": "node scripts/build.js", 
-    "test": "node scripts/test.js --env=jsdom"
+    "build": "node scripts/build.js",
+    "test": "node scripts/test.js --env=jsdom",
+    "docs:dev": "vuepress dev docs",
+    "docs:build": "vuepress build docs"
   },
   "devDependencies": {
     "babel-cli": "^6.26.0",
@@ -71,7 +73,8 @@
     "less-loader": "^4.1.0",
     "rc-react": "^1.0.9",
     "react-router": "^4.2.0",
-    "react-router-dom": "^4.2.2"
+    "react-router-dom": "^4.2.2",
+    "vuepress": "^0.10.2"
   },
   "jest": {
     "collectCoverageFrom": [
